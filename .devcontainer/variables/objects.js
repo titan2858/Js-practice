@@ -17,6 +17,7 @@ console.log(obj.Address);
 console.log(obj.IsLoggedIn);
 console.log(obj.lastLoginDays);
 
+// +++++++++++++++++++++++++++++++++++++++++++  FREEZE ++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 //After using the .freeze() method  ,the value of any element in object cannot be changed . It is fixed i.e freeze  
 Object.freeze(obj)
@@ -40,7 +41,7 @@ myObj.marks={
     TOC:86,
     OS:70,
     Maths:90,
-    SE:93
+    SE:82
 }
 
 console.log(myObj.marks.SE);
